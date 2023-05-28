@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Healthy Living for Seniors</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Healthy Living for Seniors</h1>
+    <nav>
+      <ul>
+        <li><a href="#fitness">Exercise</a></li>
+        <li><a href="#tracking">Health Tracking</a></li>
+        <li><a href="#nutrition">Nutrition</a></li>
+        <li><a href="#challenges">Challenges</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="instructions">
+
+  <section id="exercise-fitness" class="center-section">
+    <h2>Exercise and Fitness</h2>
+    <!-- Exercise Instructions -->
+
+    <article>
+      <h3>Strength Training</h3>
+      <video src="strength_training.mp4" controls></video>
+      <p>Include a description and instructions for the exercise routine.</p>
+      
+      <h3>Flexibility Exercises</h3>
+      <video src="flexibility_exercises.mp4" controls></video>
+      <p>Include a description and instructions for the exercise routine.</p>
+      
+      <h3>Balance Workouts</h3>
+      <video src="balance_workouts.mp4" controls></video>
+      <p>Include a description and instructions for the exercise routine.</p>
+      
+      <h3>Cardiovascular Exercises</h3>
+      <video src="cardio_exercises.mp4" controls></video>
+      <p>Include a description and instructions for the exercise routine.</p>
+    </article>
+  </section></div>
+  
+  <section id="tracking">
+    <h2>Health Tracking Tools</h2>
+    <article>
+      <h3>Blood Pressure Tracker</h3>
+      <p>Use the form below to track your blood pressure:</p>
+      <form>
+        <label for="systolic">Systolic:</label>
+        <input type="number" id="systolic" placeholder="Systolic reading" required>
+        <label for="diastolic">Diastolic:</label>
+        <input type="number" id="diastolic" placeholder="Diastolic reading" required>
+        <button type="button" onclick="trackBloodPressure()">Track</button>
+      </form>
+      
+      <h3>Heart Rate Monitor</h3>
+<!-- Heart Rate Monitor Timer -->
+<p>Heart Rate Timer: <span id="heartRateTimer">00:00</span></p>
+      <button onclick="startHeartRateMonitor()">Start</button>
+      <button onclick="stopHeartRateMonitor()">Stop</button>
+      
+      <h3>Physical Activity Tracker</h3>
+      <p>Use the pedometer to track your daily steps:</p>
+      <p id="steps">0 steps</p>
+      <button onclick="resetSteps()">Reset</button>
+    </article>
+  </section>
+  
+  <section id="nutrition">
+    <h2>Nutrition and Healthy Recipes</h2>
+    <article>
+      <h3>Senior-Specific Nutritional Needs</h3>
+      <p>Include information on senior nutritional requirements and considerations.</p>
+      
+      <h3>Healthy Recipes</h3>
+      <ul>
+        <li><a href="recipe1.pdf" target="_blank">Recipe 1</a></li>
+        <li><a href="recipe2.pdf" target="_blank">Recipe 2</a></li>
+        <li><a href="recipe3.pdf" target="_blank">Recipe 3</a></li>
+      </ul>
+      
+      <h3>Portion Control Tips</h3>
+      <p>Include tips on portion sizes and mindful eating.</p>
+      
+      <h3>Managing Chronic Conditions</h3>
+      <p>Provide guidance on using diet to manage common chronic conditions.</p>
+    </article>
+  </section>
+  
+  <section id="challenges">
+    <h2>Monthly Challenges</h2>
+    <article>
+      <h3>Walking Challenge</h3>
+      <p>Join our walking challenge and track your daily steps. Reach milestones and earn rewards!</p>
+      
+      <h3>Hydration Challenge</h3>
+      <p>Stay hydrated with our monthly hydration challenge. Record your daily water intake and improve your hydration habits.</p>
+      
+      <h3>Mindfulness Challenge</h3>
+      <p>Practice mindfulness with our mindfulness challenge. Engage in guided meditation exercises and enhance your well-being.</p>
+    </article>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Healthy Living for Seniors. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,265 @@
+header {
+    background: linear-gradient(to bottom, #ffffff, #b8d8e6);
+  }
+  
+  /* Center the header content */
+  header h1 {
+    text-align: center;
+    color: #003366;
+    padding: 20px 0;
+  }
+  
+  /* Style the navigation menu */
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #555555;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #003366;
+    color: #ffffff;
+  }
+  
+  
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  /* Gradient background for Exercise and Fitness section */
+  #exercise-fitness {
+    background: linear-gradient(to bottom, #ffffff, #b8d8e6);
+    padding: 40px 0;
+  }
+  
+  /* Center the section content */
+  .center-section {
+    text-align: center;
+  }
+  
+  /* Style the article container */
+  .center-section article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the exercise headings */
+  .center-section h3 {
+    color: #003366;
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  /* Style the exercise videos */
+  .center-section video {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Style the exercise descriptions */
+  .center-section p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  
+  
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  
+  
+  /* Gradient background for Health Tracking Tools section */
+  #tracking {
+    background: linear-gradient(to bottom, #b8d8e6, #ffffff);
+    padding: 40px 0;
+  }
+  
+  /* Center the section content */
+  #tracking article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the health tracking tool headings */
+  #tracking h3 {
+    color: #003366;
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  /* Style the blood pressure form */
+  #tracking form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #tracking form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555555;
+  }
+  
+  #tracking form input[type="number"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    font-size: 16px;
+  }
+  
+  #tracking form button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #003366;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style the heart rate monitor buttons */
+  #tracking button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #003366;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style the steps counter */
+  #tracking #steps {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #003366;
+  }
+  
+  /* Style the reset button */
+  #tracking button[type="reset"] {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #003366;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  
+  /* Gradient background for Nutrition and Healthy Recipes section */
+  #nutrition {
+    background: linear-gradient(to bottom, #ffffff, #b8d8e6);
+    padding: 40px 0;
+  }
+  
+  /* Center the section content */
+  #nutrition article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the nutrition and recipe headings */
+  #nutrition h3 {
+    color: #003366;
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  /* Style the recipe list */
+  #nutrition ul {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  #nutrition ul li {
+    margin-bottom: 10px;
+  }
+  
+  #nutrition ul li a {
+    display: inline-block;
+    color: #003366;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  #nutrition ul li a:hover {
+    color: #555555;
+  }
+  
+  /* Style the portion control tips and managing chronic conditions sections */
+  #nutrition p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  
+  /* Gradient background for Monthly Challenges section */
+  #challenges {
+    background: linear-gradient(to bottom, #b8d8e6, #ffffff);
+    padding: 40px 0;
+  }
+  
+  /* Center the section content */
+  #challenges article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the challenge headings */
+  #challenges h3 {
+    color: #003366;
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  /* Style the challenge descriptions */
+  #challenges p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.5;
+  }
